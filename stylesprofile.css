@@ -1,0 +1,102 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 15px;
+}
+
+#backtomainpage{
+    font-size: 14.5px;
+    color:black;
+    background-color:darkgrey;
+    text-decoration: none;
+}
+
+#backtomainpage:hover {
+    text-decoration: underline;
+    box-shadow: 0px 0px 15px brown
+
+}
+
+#intro{
+    text-align: center;
+    overflow: hidden; 
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: typing 4s steps(40, end);
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+#profilepicture {
+    width: 20%;
+    border-radius: 150px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pictures{
+    height: 300px;
+}
+
+
+
+.titles {
+    color:black;
+    background-color: burlywood;
+    width: auto;
+}
+
+#alert {
+    color: white;
+    text-align: center;
+    overflow: hidden; 
+    white-space: nowrap;
+    margin: 0 auto; 
+    background-color:greenyellow ;
+    width: auto;
+    font-size: 40px;
+    animation: typing 4s steps(40, end);
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+#alert:hover {
+    box-shadow: 0px 0px 10px yellow
+}
+
+.closebtn {
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+    margin-right: 20px;
+}
+  
+.closebtn:hover {
+    color: black;
+}
+
+.info{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#gamelink {
+    color:white;
+    margin-bottom:auto;
+    text-decoration: none;
+    background-color:green ;
+}
+
+#gamelink:hover{
+    box-shadow: 0px 0px 10px yellow;
+    text-decoration: underline;
+}
